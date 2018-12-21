@@ -1,0 +1,12 @@
+Template Method Pattern (일정한 프로세스가 있으며 그 프로세스에 변경이 있을 가능성이 있을때 사용하는 디자인 패턴)
+
+실습 요구 사항
+
+ - 신작 게임 접속 구현 requestConnection(String str) -> String
+ 	- 유저가 게임 접속시 다음을 고려해야합니다.
+ 		보안 과정 : doSecurity(String str) -> String
+		인증 과정 : authentication(String Id, String pass) -> boolean
+		권한 과정 : authorization(String Username) -> int
+		접속 과정 : connection(String info) -> String
+	
+-> 요점: 일정한 프로세스가 있으며 그 프로세스에 변경이 있을 가능성이 있을때 사용하는 디자인 패턴.
