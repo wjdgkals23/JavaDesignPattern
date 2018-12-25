@@ -1,6 +1,5 @@
 package adapter;
 
-// static 형태로 개발하여 인스턴스화 없이 사용가능
 // 라이브러리 형태의 개발
 
 public class Math {
